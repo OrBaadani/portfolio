@@ -374,6 +374,8 @@ footer {
       padding-bottom: 0; }
   .contact .contact-form .text-fields {
     grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+  .contact .contact-form .recaptcha {
+    transform: scale(0.6); }
   footer {
     height: 7rem; }
     footer .footer-content {
