@@ -1,0 +1,19 @@
+$website-width: 1280px;
+$main-color: #ffbc00;
+// $main-color: #ff1942;
+// $main-color: #73359f;
+$light-color: #f4f4f4;
+$medium-color: #e0e0e0;
+$dark-color: #333;
+
+$bg-image: url('../img/showcase.jpg');
+// $bg-image: url('../img/header4.jpg');
+
+//set text color
+@function set-text-color($color) {
+    @if (lightness($color) >50) {
+        @return #000;
+    } @else {
+        @return #fff;
+    }
+}

@@ -1,0 +1,18 @@
+.about {
+    .about-info {
+        display: grid;
+        grid-template-areas: 'bioimage bio bio';
+        gap: 1.2rem;
+    }
+    .bio-image {
+        grid-area: bioimage;
+    }
+    .bio {
+        grid-area: bio;
+        border-left: 3px solid $main-color;
+        padding: 0.8rem;
+        p {
+            font-size: 1.5rem;
+        }
+    }
+}

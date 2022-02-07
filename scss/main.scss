@@ -1,0 +1,15 @@
+//setup
+@import 'setup/variables';
+@import 'setup/fonts';
+//basics
+@import 'basics/base';
+@import 'basics/utilities';
+//sections
+@import 'sections/header';
+@import 'sections/specialize';
+@import 'sections/gallery';
+@import 'sections/contact';
+@import 'sections/about';
+@import 'sections/footer';
+
+@import 'basics/media';

@@ -1,0 +1,105 @@
+@media (max-width: 800px) {
+    .header-home {
+        height: 30rem;
+        .header-content {
+            padding-top: 5rem;
+        }
+    }
+}
+@media (max-width: 650px) {
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+        li {
+            padding: 1rem;
+        }
+    }
+}
+@media (max-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+
+    .header {
+        &-home {
+            // height: 10rem;
+            border-bottom: 3px solid $main-color;
+            .header-content {
+                padding-top: 12%;
+                // display: none;
+                h1 {
+                    text-align: center;
+                    width: 200px;
+                    font-size: 2rem;
+                }
+                a {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    //stack grid columns
+    .specialize .specials,
+    .items {
+        grid-template-columns: 1fr;
+    }
+    .specialize .specials {
+        border-bottom: 1px $light-color solid;
+        padding-bottom: 1rem;
+        &:last-child {
+            border: none;
+            padding-bottom: 0;
+        }
+    }
+    .about {
+        .about-info {
+            grid-template-areas:
+                'bioimage'
+                'bio';
+        }
+        .bio {
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .contact {
+        .contact-form {
+            .text-fields {
+                grid-template-areas:
+                    'name'
+                    'subject'
+                    'email'
+                    'phone'
+                    'message';
+            }
+        }
+    }
+    footer {
+        height: 7rem;
+        .footer-content {
+            flex-direction: column;
+            padding: 1rem;
+            height: 5rem;
+        }
+    }
+}
+
+//landscape
+@media (max-height: 580px) {
+    .header-home {
+        .header-content {
+            padding-top: 3rem;
+        }
+    }
+}
+
+@media (max-height: 330px) {
+    .header-home {
+        .header-content {
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    }
+}
