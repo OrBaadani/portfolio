@@ -1,16 +1,15 @@
 var currentLink = null;
+//when user click on links in header, it will scroll to the section
 function changeLinkColor(link, scroll) {
     console.log('', window.innerWidth);
     if (window.innerWidth < 650) {
         window.scrollTo({
             top: document.querySelector(`.${scroll}`).offsetTop - 120,
-            // left: 100,
             behavior: 'smooth'
         })
     } else {
         window.scrollTo({
             top: document.querySelector(`.${scroll}`).offsetTop - 70,
-            // left: 100,
             behavior: 'smooth'
         });
     }
