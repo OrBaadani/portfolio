@@ -1,22 +1,10 @@
 @font-face {
   font-family: Dosis;
-  src: url(fonts/Dosis-VariableFont_wght.ttf); }
-
-@font-face {
-  font-family: Alltheroll;
-  src: url(fonts/Alltherollpersonaluse-DOJE0.otf); }
-
-@font-face {
-  font-family: GvTime;
-  src: url(fonts/GvTimeRegular-BW768.ttf); }
-
-@font-face {
-  font-family: Richard;
-  src: url(fonts/RichardCleanPersonalUseRegular-MV54p.ttf); }
+  src: url(../fonts/Dosis-VariableFont_wght.ttf); }
 
 @font-face {
   font-family: Rooster;
-  src: url(fonts/RoosterPersonalUse-3z8d8.ttf); }
+  src: url(./../../dist/fonts/RoosterPersonalUse-3z8d8.ttf); }
 
 * {
   margin: 0;
