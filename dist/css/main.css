@@ -252,7 +252,7 @@ input[class^='btn-']:hover {
 
 .contact .contact-form .text-fields {
   display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message' 'recaptcha recaptcha';
+  grid-template-areas: 'name email' 'subject phone' 'message message';
   gap: 1.2rem;
   margin-bottom: 1.2rem; }
   .contact .contact-form .text-fields .name-input {
@@ -267,16 +267,15 @@ input[class^='btn-']:hover {
     grid-area: message;
     height: 100px;
     font-family: Dosis; }
-  .contact .contact-form .text-fields .recaptcha {
-    grid-area: recaptcha; }
-    .contact .contact-form .text-fields .recaptcha .g-recaptcha {
-      display: inline-block;
-      margin: 0 auto; }
   .contact .contact-form .text-fields .text-input {
     font-family: Dosis;
     line-height: 1.5rem;
     font-size: 1.1rem;
     padding: 0.5rem 1rem; }
+
+.contact .contact-form .recaptcha .g-recaptcha {
+  display: inline-block;
+  margin: 0 auto; }
 
 .contact .contact-form button[type='submit'] {
   width: 40%;
@@ -374,7 +373,7 @@ footer {
       border: none;
       padding-bottom: 0; }
   .contact .contact-form .text-fields {
-    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message' 'recaptcha'; }
+    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
   footer {
     height: 7rem; }
     footer .footer-content {

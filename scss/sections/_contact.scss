@@ -5,8 +5,8 @@
             grid-template-areas:
                 'name email'
                 'subject phone'
-                'message message'
-                'recaptcha recaptcha';
+                'message message';
+            // 'recaptcha recaptcha';
             gap: 1.2rem;
             margin-bottom: 1.2rem;
             //grid areas
@@ -27,18 +27,19 @@
                 height: 100px;
                 font-family: Dosis;
             }
-            .recaptcha {
-                grid-area: recaptcha;
-                .g-recaptcha {
-                    display: inline-block;
-                    margin: 0 auto;
-                }
-            }
+
             .text-input {
                 font-family: Dosis;
                 line-height: 1.5rem;
                 font-size: 1.1rem;
                 padding: 0.5rem 1rem;
+            }
+        }
+        .recaptcha {
+            // grid-area: recaptcha;
+            .g-recaptcha {
+                display: inline-block;
+                margin: 0 auto;
             }
         }
         button[type='submit'] {
