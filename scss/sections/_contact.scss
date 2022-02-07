@@ -29,6 +29,10 @@
             }
             .recaptcha {
                 grid-area: recaptcha;
+                .g-recaptcha {
+                    display: inline-block;
+                    margin: 0 auto;
+                }
             }
             .text-input {
                 font-family: Dosis;

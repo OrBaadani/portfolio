@@ -269,6 +269,9 @@ input[class^='btn-']:hover {
     font-family: Dosis; }
   .contact .contact-form .text-fields .recaptcha {
     grid-area: recaptcha; }
+    .contact .contact-form .text-fields .recaptcha .g-recaptcha {
+      display: inline-block;
+      margin: 0 auto; }
   .contact .contact-form .text-fields .text-input {
     font-family: Dosis;
     line-height: 1.5rem;
