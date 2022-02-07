@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: Rooster;
-  src: url(../dist/fonts/RoosterPersonalUse-3z8d8.ttf); }
+  src: url(../fonts/RoosterPersonalUse-3z8d8.ttf); }
 
 * {
   margin: 0;
@@ -296,7 +296,7 @@ input[class^='btn-']:hover {
   border-left: 3px solid #ffbc00;
   padding: 0.8rem; }
   .about .bio p {
-    font-size: 1.5rem; }
+    font-size: 1.4rem; }
 
 footer {
   background-color: #333;
@@ -325,7 +325,9 @@ footer {
   .header-home {
     height: 30rem; }
     .header-home .header-content {
-      padding-top: 5rem; } }
+      padding-top: 5rem; }
+  .about .bio p {
+    font-size: 1.2rem; } }
 
 @media (max-width: 650px) {
   .main-nav {

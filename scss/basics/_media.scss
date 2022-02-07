@@ -5,6 +5,13 @@
             padding-top: 5rem;
         }
     }
+    .about {
+        .bio {
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
 }
 @media (max-width: 650px) {
     .main-nav {
