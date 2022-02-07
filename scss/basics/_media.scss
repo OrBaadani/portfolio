@@ -21,12 +21,6 @@
             padding: 1rem;
         }
     }
-}
-@media (max-width: 500px) {
-    body {
-        font-size: 14px;
-    }
-
     .header {
         &-home {
             // height: 10rem;
@@ -36,12 +30,37 @@
                 // display: none;
                 h1 {
                     text-align: center;
-                    width: 200px;
-                    font-size: 2rem;
+                    // width: 200px;
+                    font-size: 2.5rem;
                 }
                 a {
                     font-size: 1rem;
                 }
+            }
+        }
+    }
+    .about {
+        .about-info {
+            grid-template-areas:
+                'bioimage'
+                'bio';
+        }
+    }
+}
+@media (max-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+    .logo {
+        font-size: 2.3rem;
+    }
+    .header-home {
+        .header-content {
+            padding-top: 12%;
+            h1 {
+                text-align: center;
+                // width: 200px;
+                font-size: 2rem;
             }
         }
     }
@@ -58,18 +77,7 @@
             padding-bottom: 0;
         }
     }
-    .about {
-        .about-info {
-            grid-template-areas:
-                'bioimage'
-                'bio';
-        }
-        .bio {
-            p {
-                font-size: 1.2rem;
-            }
-        }
-    }
+
     .contact {
         .contact-form {
             .text-fields {
@@ -91,7 +99,22 @@
         }
     }
 }
-
+@media (max-width: 330px) {
+    .main-nav {
+        ul {
+            li {
+                padding: 1rem 1rem;
+            }
+        }
+    }
+    .contact {
+        .contact-form {
+            button[type='submit'] {
+                padding: 0.8rem 1rem;
+            }
+        }
+    }
+}
 //landscape
 @media (max-height: 580px) {
     .header-home {
