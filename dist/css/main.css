@@ -340,8 +340,10 @@ footer {
   .main-nav {
     flex-direction: column;
     align-items: center; }
-    .main-nav li {
-      padding: 1rem; }
+    .main-nav ul {
+      padding-top: 0; }
+      .main-nav ul li {
+        padding: 1rem; }
   .header-home {
     border-bottom: 3px solid #ffbc00; }
     .header-home .header-content {
