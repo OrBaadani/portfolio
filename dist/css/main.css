@@ -138,13 +138,14 @@ input[class^='btn-']:hover {
 .main-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 1rem; }
+  align-items: center; }
   .main-nav a:first-of-type {
     display: flex;
     justify-content: center;
     align-items: center; }
   .main-nav ul {
-    display: flex; }
+    display: flex;
+    padding-top: 1rem; }
     .main-nav ul li {
       padding: 1rem 1.5rem; }
       .main-nav ul li a {
